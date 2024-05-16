@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  MyHomePage(title: "FASHION GALLERY FOR MEN - FTK"),
+      home:  MyHomePage(title: "FTK FASHION GALLERY"),
     );
   }
 }

@@ -19,8 +19,8 @@ class ImagesDisplayModel extends StatelessWidget {
             heroAnimationTag: '',
            zoomWidget: Container(
               color: Colors.black,
-            height: 300,
-            width: 200,
+            height: 200,
+            width: 150,
              child: Image.asset(img, fit: BoxFit.cover,),
 
                     ),

@@ -48,62 +48,62 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
 
     population = Wrap(
-      spacing: 20,
-      runSpacing: 20,
+      spacing: 5,
+      runSpacing: 30,
       children: widget.nativeView.design.map((e) => e).toList(),
     );
 
     native = Wrap(
-      spacing: 20,
-      runSpacing: 20,
+      spacing: 5,
+      runSpacing: 30,
       children: widget.nativeView.design.map((e) => e).toList(),
     );
 
     kaftan = Wrap(
-      spacing: 20,
-      runSpacing: 20,
+      spacing: 5,
+      runSpacing: 30,
       children: widget.kaftanView.design.map((e) => e).toList(),
     );
 
     agbada = Wrap(
-      spacing: 20,
-      runSpacing: 20,
+      spacing: 5,
+      runSpacing: 30,
       children: widget.agbadaView.design.map((e) => e).toList(),
     );
 
     casual = Wrap(
-      spacing: 20,
-      runSpacing: 20,
+      spacing: 5,
+      runSpacing: 30,
       children: widget.casualView.design.map((e) => e).toList(),
     );
 
     cap = Wrap(
-      spacing: 20,
-      runSpacing: 20,
+      spacing: 5,
+      runSpacing: 30,
       children: widget.capView.design.map((e) => e).toList(),
     );
 
     bag = Wrap(
-      spacing: 20,
-      runSpacing: 20,
+      spacing: 5,
+      runSpacing: 30,
       children: widget.bagView.design.map((e) => e).toList(),
     );
 
     footWear = Wrap(
-      spacing: 20,
-      runSpacing: 20,
+      spacing: 5,
+      runSpacing: 30,
       children: widget.footWearView.design.map((e) => e).toList(),
     );
 
     wristWatch = Wrap(
-      spacing: 20,
-      runSpacing: 20,
+      spacing: 5,
+      runSpacing: 30,
       children: widget.wristWatchView.design.map((e) => e).toList(),
     );
 
     bracelet = Wrap(
-      spacing: 20,
-      runSpacing: 20,
+      spacing: 5,
+      runSpacing: 30,
       children: widget.braceletView.design.map((e) => e).toList(),
     );
   }
@@ -184,7 +184,7 @@ class _MyHomePageState extends State<MyHomePage> {
           title: Text(widget.title),
         ),
         body: Padding(
-          padding: const EdgeInsets.fromLTRB(20, 0, 20, 50),
+          padding: const EdgeInsets.fromLTRB(0, 0, 0, 50),
           child: SingleChildScrollView(
             child: Stack(
               children: [
