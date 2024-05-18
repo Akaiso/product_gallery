@@ -181,7 +181,7 @@ class _MyHomePageState extends State<MyHomePage> {
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           // Here we take the value from the MyHomePage object that was created by
           // the App.build method, and use it to set our appbar title.
-          title: Text(widget.title),
+          title: Text(widget.title, style: TextStyle(fontWeight: FontWeight.w600),),
         ),
         body: Padding(
           padding: const EdgeInsets.fromLTRB(0, 0, 0, 50),
@@ -191,8 +191,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
+                    SizedBox(height: 20,),
                     const Text(
-                      "SELECT A CATEGORY",
+                      "-SELECT A CATEGORY-",
                       style: TextStyle(letterSpacing: 2),
                     ),
                     const SizedBox(
@@ -201,7 +202,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     SingleChildScrollView(
                       scrollDirection: Axis.horizontal,
                       child: SizedBox(
-                        height: 90, //width: MediaQuery.of(context).size.width,
+                        height: 70, //width: MediaQuery.of(context).size.width,
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: // [],

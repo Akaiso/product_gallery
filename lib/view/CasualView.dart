@@ -38,6 +38,62 @@ class CasualView extends StatelessWidget {
       id: 'ID: 5',
       status: "On-demand",
     ),
+    const ImagesDisplayModel(
+      text: "Men casual",
+      img: "assets/images/casual/6.jpg",
+      id: 'ID: 6',
+      status: "On-demand",
+    ),
+    const ImagesDisplayModel(
+      text: "Men casual",
+      img: "assets/images/casual/7.jpg",
+      id: 'ID: 7',
+      status: "On-demand",
+    ),
+    const ImagesDisplayModel(
+      text: "Men casual",
+      img: "assets/images/casual/8.jpg",
+      id: 'ID: 8',
+      status: "On-demand",
+    ),
+    const ImagesDisplayModel(
+      text: "Men casual",
+      img: "assets/images/casual/9.jpg",
+      id: 'ID: 9',
+      status: "On-demand",
+    ),
+    const ImagesDisplayModel(
+      text: "Men casual",
+      img: "assets/images/casual/10.jpg",
+      id: 'ID: 10',
+      status: "On-demand",
+    ),
+    const ImagesDisplayModel(
+      text: "Men casual",
+      img: "assets/images/casual/11.jpg",
+      id: 'ID: 11',
+      status: "On-demand",
+    ),
+    const ImagesDisplayModel(
+      text: "Men casual",
+      img: "assets/images/casual/12.jpg",
+      id: 'ID: 12',
+      status: "On-demand",
+    ),
+    const ImagesDisplayModel(
+      text: "Men casual",
+      img: "assets/images/casual/13.jpg",
+      id: 'ID: 13',
+      status: "On-demand",
+    ),
+    const ImagesDisplayModel(
+      text: "Men casual",
+      img: "assets/images/casual/14.jpg",
+      id: 'ID: 14',
+      status: "On-demand",
+    ),
+
+
 
   ];
 

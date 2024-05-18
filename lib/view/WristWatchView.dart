@@ -49,7 +49,19 @@ class WristWatchView extends StatelessWidget {
       img: "assets/images/wristwatch/7.jpg",
       id: 'ID: 7',
       status: "On-demand",
-    )
+    ),
+    const ImagesDisplayModel(
+      text: "Men wrist watch",
+      img: "assets/images/wristwatch/8.jpg",
+      id: 'ID: 8',
+      status: "On-demand",
+    ),
+    const ImagesDisplayModel(
+      text: "Men wrist watch",
+      img: "assets/images/wristwatch/9.jpg",
+      id: 'ID: 9',
+      status: "On-demand",
+    ),
   ];
 
   @override

@@ -49,7 +49,25 @@ class KaftanView extends StatelessWidget {
       img: "assets/images/kaftan/7.jpg",
       id: 'ID: 7',
       status: "On-demand",
-    )
+    ),
+    const ImagesDisplayModel(
+      text: "Men kaftan ",
+      img: "assets/images/kaftan/8.jpg",
+      id: 'ID: 8',
+      status: "On-demand",
+    ),
+    const ImagesDisplayModel(
+      text: "Men kaftan ",
+      img: "assets/images/kaftan/9.jpg",
+      id: 'ID: 9',
+      status: "On-demand",
+    ),
+    const ImagesDisplayModel(
+      text: "Men kaftan ",
+      img: "assets/images/kaftan/10.jpg",
+      id: 'ID: 10',
+      status: "On-demand",
+    ),
   ];
 
   @override
